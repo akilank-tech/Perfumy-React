@@ -22,6 +22,9 @@ a:hover{
     color:white;
     text-decoration: underline;
 }
+.fa-solid.fa-bars{
+    display:none;
+}
 .search{
     display:flex;
     justify-content:center;
@@ -62,4 +65,17 @@ a:hover{
     body{
         font-size:12px;
     }
+}
+@media screen and (max-width: 600px){
+    .fa-solid.fa-bars{
+    display:block;
+    color:gray;
+    cursor:pointer;
+}
+.fa-solid.fa-bars:hover{
+    color:white;
+}
+ul{
+    display:none;
+}
 }

@@ -8,6 +8,7 @@ function Navbar() {
         <li><a href="/about">About |</a></li>
         <li><a href="/contact">Contact </a></li>
       </ul>
+      <i class="fa-solid fa-bars"></i>
     </nav>
   )
 }
