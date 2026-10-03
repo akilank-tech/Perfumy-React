@@ -1,6 +1,5 @@
 *{
     box-sizing:border-box;
-    overflow:hidden;
 }
 nav{
     background-color:black;
@@ -53,11 +52,10 @@ a:hover{
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    border:solid 1px black;
 }
 .box img{
     width:100%;
-    height:auto;
+    height:300px;
     object-fit: cover;
 }
 @media screen and (max-width: 800px){
